@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:themes = "clr-namespace:mobAppTry.Themes;assembly=mobAppTry"
+             x:Class="mobAppTry.App">
+    <Application.Resources>
+        
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <themes:LightTheme />
+            </ResourceDictionary.MergedDictionaries >
+            <Style TargetType="Frame">
+                <Setter Property="BorderColor" Value="DarkGray" />
+                <Setter Property="CornerRadius" Value="10" />
+                <Setter Property="Padding" Value="5" />
+                <Setter Property="CornerRadius" Value="5"/>
+            </Style>
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>

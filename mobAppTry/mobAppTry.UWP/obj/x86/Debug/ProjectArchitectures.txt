@@ -1,0 +1,1 @@
+H:\C#\mobAppTry\mobAppTry\mobAppTry.UWP\mobAppTry.UWP.csproj;x86

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mobAppTry.LogInPage">
+
+
+    <StackLayout Padding="0, 5" Margin="15">
+
+        <StackLayout Orientation="Vertical" 
+                     VerticalOptions="Start"
+                     HorizontalOptions="Center">
+
+            <Label x:Name="label" 
+                   Text="Sto Gram"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center" 
+                   FontSize="50" 
+                   FontAttributes="Bold"
+                   Margin="0,100,0,0"/>
+
+            <Label Text="© Бухенвальд"
+                   HorizontalTextAlignment="Center"/>
+        </StackLayout>
+
+        <StackLayout VerticalOptions="CenterAndExpand">
+
+            <Frame>
+                <Entry x:Name="loginEntry" 
+                       Placeholder="login" 
+                       FontSize="14"/>
+            </Frame>
+            <Frame>
+                <Entry x:Name="passwordEntry" 
+                       Placeholder="password" 
+                       IsPassword="True" 
+                       FontSize="14"/>
+            </Frame>
+
+            <Frame x:Name ="loginFrame" 
+                   CornerRadius="10"
+                   BackgroundColor="DodgerBlue">
+                <Label x:Name="labelLogin"
+                       Text="Вход" 
+                       TextColor="White"
+                       HorizontalTextAlignment="Center"
+                       FontSize="15"
+                       Padding="0, 5"/>
+            </Frame>
+
+            <Frame x:Name ="signInFrame" 
+                   CornerRadius="10"
+                   BackgroundColor="DarkGray">
+                <Label x:Name="labelSignIn"
+                       Text="Регистрация" 
+                       TextColor="White"
+                       HorizontalTextAlignment="Center"
+                       FontSize="15"
+                       Padding="0, 5"/>
+            </Frame>
+
+            <Label Text="" 
+                   HorizontalTextAlignment="Center"
+                   Padding="10"/>
+
+            <Label x:Name="labelFacebook" 
+                   Text=""
+                   TextColor="DodgerBlue"  
+                   FontSize="20"
+                   HorizontalTextAlignment="Center"/>
+
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" 
+                     VerticalOptions="End"
+                     HorizontalOptions="Center">
+
+            <Label Text="Ол райтс резьорвед бай кеклюк юрко 2021"/>
+            <Label Text=""
+                   TextColor="DodgerBlue"/>
+
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

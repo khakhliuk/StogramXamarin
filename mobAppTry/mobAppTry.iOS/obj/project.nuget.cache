@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "vh9e00x89cZULW4RuQpwuvKinlSFuOp2lPGcrgo4rmByYIwHeLchPVTPI2q/Hv3lANzHMPRYFeEXFvq4QNTfqw==",
+  "success": true,
+  "projectFilePath": "H:\\C#\\mobAppTry\\mobAppTry\\mobAppTry.iOS\\mobAppTry.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\getflancked\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\getflancked\\.nuget\\packages\\syncfusion.licensing\\19.3.0.46\\syncfusion.licensing.19.3.0.46.nupkg.sha512",
+    "C:\\Users\\getflancked\\.nuget\\packages\\syncfusion.xamarin.buttons\\19.3.0.46\\syncfusion.xamarin.buttons.19.3.0.46.nupkg.sha512",
+    "C:\\Users\\getflancked\\.nuget\\packages\\syncfusion.xamarin.core\\19.3.0.46\\syncfusion.xamarin.core.19.3.0.46.nupkg.sha512",
+    "C:\\Users\\getflancked\\.nuget\\packages\\syncfusion.xamarin.datasource\\19.3.0.46\\syncfusion.xamarin.datasource.19.3.0.46.nupkg.sha512",
+    "C:\\Users\\getflancked\\.nuget\\packages\\syncfusion.xamarin.gridcommon\\19.3.0.46\\syncfusion.xamarin.gridcommon.19.3.0.46.nupkg.sha512",
+    "C:\\Users\\getflancked\\.nuget\\packages\\syncfusion.xamarin.sfcombobox\\19.3.0.46\\syncfusion.xamarin.sfcombobox.19.3.0.46.nupkg.sha512",
+    "C:\\Users\\getflancked\\.nuget\\packages\\syncfusion.xamarin.sflistview\\19.3.0.46\\syncfusion.xamarin.sflistview.19.3.0.46.nupkg.sha512",
+    "C:\\Users\\getflancked\\.nuget\\packages\\syncfusion.xamarin.sfrating\\19.3.0.46\\syncfusion.xamarin.sfrating.19.3.0.46.nupkg.sha512",
+    "C:\\Users\\getflancked\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\getflancked\\.nuget\\packages\\xam.plugin.filepicker\\1.1.0\\xam.plugin.filepicker.1.1.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

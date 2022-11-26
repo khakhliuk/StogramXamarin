@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mobAppTry.MainPage">
+
+    <ContentPage.Resources>
+        <Style x:Key="BottomButtons" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="White" />
+            <Setter Property="FontSize" Value="35" />
+            <Setter Property="Padding" Value="0, -10"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <StackLayout>
+
+        <StackLayout Orientation="Vertical" 
+                     VerticalOptions="Start"
+                     HorizontalOptions="Fill">
+
+            <Frame CornerRadius="0">
+                <Label Text="Sto Gram"
+                       TextColor="Black"
+                       HorizontalTextAlignment="Center" 
+                       FontSize="30" 
+                       FontAttributes="Bold"/>
+            </Frame>
+
+        </StackLayout>
+
+        <ScrollView x:Name="scrollFeed"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand">
+
+        </ScrollView>
+
+        <StackLayout Orientation="Vertical" 
+                     VerticalOptions="End"
+                     HorizontalOptions="FillAndExpand">
+
+            <Frame CornerRadius="0">
+
+                <StackLayout Orientation="Horizontal"
+                             HorizontalOptions="CenterAndExpand">
+
+                    <Button x:Name="refreshButton"
+                            Text="R" 
+                            Style="{StaticResource BottomButtons}" />
+
+                    <Button x:Name="addPostButton"
+                            Text="+" 
+                            Style="{StaticResource BottomButtons}" />
+
+                    <Button x:Name="myPostsButton"
+                            Text="P" 
+                            Style="{StaticResource BottomButtons}" />
+                </StackLayout>
+
+            </Frame>
+            
+
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>
